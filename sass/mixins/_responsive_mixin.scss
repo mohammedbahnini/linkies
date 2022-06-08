@@ -1,0 +1,36 @@
+@use "../partials/variables" as *;
+
+// extra small devices
+@mixin xs-and-down($breakpoint: $xs-breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// small devices
+@mixin sm-and-down($breakpoint: $sm-breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// medium devices
+@mixin md-and-down($breakpoint: $md-breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// large devices
+@mixin lg-and-down($breakpoint: $lg-breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// extra large devices
+@mixin xlg-and-down($breakpoint: $xlg-breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}

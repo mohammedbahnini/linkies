@@ -1,0 +1,19 @@
+@use "../partials/variables" as *;
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: $cyan;
+  color: $green;
+  font-size: 1.125rem;
+  padding: 0.666em 1.3em;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 13rem;
+  text-align: center;
+}
+.btn-white {
+  background-color: $white;
+  color: $purple;
+}

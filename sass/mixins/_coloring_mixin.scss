@@ -1,0 +1,42 @@
+@use "../partials/variables" as *;
+@use "helpers" as *;
+
+@mixin coloring($prefix: "") {
+  // color white
+  @include with_prefix(".white", $prefix) {
+    color: white;
+  }
+
+  // color purple
+  @include with_prefix(".purple", $prefix) {
+    color: $purple;
+  }
+
+  // color cyan
+  @include with_prefix(".cyan", $prefix) {
+    color: $cyan;
+  }
+
+  // color black level 1
+  @include with_prefix(".black-1", $prefix) {
+    color: $black-1;
+  }
+
+  // color black level 2
+  @include with_prefix(".black-2", $prefix) {
+    color: $black-2;
+  }
+
+  // color green
+  @include with_prefix(".green", $prefix) {
+    color: $green;
+  }
+
+  // background-colors
+  @include with_prefix(".bg-purple", $prefix) {
+    background-color: $purple;
+  }
+  @include with_prefix(".bg-cyan", $prefix) {
+    background-color: $cyan;
+  }
+}

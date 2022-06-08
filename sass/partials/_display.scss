@@ -1,0 +1,31 @@
+@use "variables" as *;
+@use "../mixins/responsive_mixin" as *;
+@use "../mixins/display_mixin" as *;
+
+// generic
+@include display("");
+
+// extra large devices and down
+@include xlg-and-down {
+  @include display($xlg-prefix);
+}
+
+// large devices and down
+@include lg-and-down {
+  @include display($lg-prefix);
+}
+
+// medium devices and down
+@include md-and-down {
+  @include display($md-prefix);
+}
+
+// small devices and down
+@include sm-and-down {
+  @include display($sm-prefix);
+}
+
+// extra small and down
+@include xs-and-down {
+  @include display($xs-prefix);
+}

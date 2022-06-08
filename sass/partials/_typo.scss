@@ -1,0 +1,31 @@
+@use "variables" as *;
+@use "../mixins/responsive_mixin" as *;
+@use "../mixins/typo_mixin" as *;
+
+// generic classes
+@include typo("");
+
+// extra large devices
+@include xlg-and-down {
+  @include typo($xlg-prefix);
+}
+
+// large devices
+@include lg-and-down {
+  @include typo($lg-prefix);
+}
+
+// medium devices
+@include md-and-down {
+  @include typo($md-prefix);
+}
+
+// small devices
+@include sm-and-down {
+  @include typo($sm-prefix);
+}
+
+// extra small devices
+@include xs-and-down {
+  @include typo($xs-prefix);
+}

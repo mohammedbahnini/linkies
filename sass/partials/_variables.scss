@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+
+// colors
+$purple: rgb(172, 43, 239);
+$cyan: rgb(14, 221, 178);
+$green: #007159;
+$black-1: #343234;
+$black-2: #727272;
+$white: rgb(255, 255, 255);
+
+// font family
+$ff-1: "Cairo", sans-serif;
+
+// breakpoints
+$xs-breakpoint: 576px;
+$sm-breakpoint: 768px;
+$md-breakpoint: 992px;
+$lg-breakpoint: 1200px;
+$xlg-breakpoint: 1440px;
+
+// prefixes
+$xs-prefix: "xs";
+$sm-prefix: "sm";
+$md-prefix: "md";
+$lg-prefix: "lg";
+$xlg-prefix: "xlg";

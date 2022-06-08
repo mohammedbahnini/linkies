@@ -1,0 +1,46 @@
+@use "helpers" as *;
+
+@mixin typo($prefix: "") {
+  // font-sizing
+  $size: 0.25;
+  @while ($size <= 20) {
+    @include with_prefix(#{".f-s-" + ($size * 4)}, $prefix) {
+      font-size: #{$size}rem;
+    }
+
+    $size: $size + 0.25;
+  }
+
+  // weights
+  $weight: 100;
+  @while $weight <= 900 {
+    @include with_prefix(#{".f-w-" + $weight}, $prefix) {
+      font-weight: $weight;
+    }
+    $weight: $weight + 100;
+  }
+
+  // uppercase text
+  @include with_prefix(".uppercase", $prefix) {
+    text-transform: uppercase;
+  }
+
+  // lowercase text
+  @include with_prefix(".lowercase", $prefix) {
+    text-transform: lowercase;
+  }
+
+  // align
+  @include with_prefix(".align-left", $prefix) {
+    text-align: left;
+  }
+  @include with_prefix(".align-right ", $prefix) {
+    text-align: right;
+  }
+  @include with_prefix(".align-center", $prefix) {
+    text-align: center;
+  }
+  @include with_prefix(".rtl", $prefix) {
+    direction: rtl;
+  }
+}

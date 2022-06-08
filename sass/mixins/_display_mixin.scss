@@ -1,0 +1,79 @@
+@use "helpers" as *;
+
+// the main mixin
+@mixin display($prefix: "") {
+  @include with_prefix(".flex", $prefix) {
+    display: flex;
+  }
+  @include with_prefix(".ai-center", $prefix) {
+    align-items: center;
+  }
+  @include with_prefix(".ai-start", $prefix) {
+    align-items: flex-start;
+  }
+  @include with_prefix(".ai-end", $prefix) {
+    align-items: flex-end;
+  }
+  @include with_prefix(".jc-center", $prefix) {
+    justify-content: center;
+  }
+  @include with_prefix(".jc-space-between", $prefix) {
+    justify-content: space-between;
+  }
+  @include with_prefix(".jc-space-around", $prefix) {
+    justify-content: space-around;
+  }
+  @include with_prefix(".jc-space-evenly", $prefix) {
+    justify-content: space-evenly;
+  }
+  @include with_prefix(".flex-wrap", $prefix) {
+    flex-wrap: wrap;
+  }
+  @include with_prefix(".flex-reverse", $prefix) {
+    flex-direction: row-reverse;
+  }
+  @include with_prefix(".flex-col-reverse", $prefix) {
+    flex-direction: column-reverse;
+  }
+
+  @include with_prefix(".flex-col", $prefix) {
+    flex-direction: column;
+  }
+
+  // gaping
+  $spacing: 0;
+  @while ($spacing <= 10) {
+    @include with_prefix(#{".gap-" +#{$spacing * 4}}, $prefix) {
+      gap: #{$spacing}rem;
+    }
+
+    $spacing: $spacing + 0.25;
+  }
+
+  @include with_prefix(".block", $prefix) {
+    display: block;
+  }
+  @include with_prefix(".inline-block", $prefix) {
+    display: inline-block;
+  }
+
+  // floats
+  @include with_prefix(".f-left", $prefix) {
+    float: left;
+  }
+  @include with_prefix(".f-right", $prefix) {
+    float: right;
+  }
+  @include with_prefix(".clearfix", $prefix) {
+    clear: both;
+  }
+
+  // ordering items
+  $order: 0;
+  @while $order <= 50 {
+    @include with_prefix(#{".order-" + $order}, $prefix) {
+      order: $order;
+    }
+    $order: $order + 1;
+  }
+}

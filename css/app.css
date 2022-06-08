@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+.white {
+  color: white;
+}
+
+.purple {
+  color: rgb(172, 43, 239);
+}
+
+.cyan {
+  color: rgb(14, 221, 178);
+}
+
+.black-1 {
+  color: #343234;
+}
+
+.black-2 {
+  color: #727272;
+}
+
+.green {
+  color: #007159;
+}
+
+.bg-purple {
+  background-color: rgb(172, 43, 239);
+}
+
+.bg-cyan {
+  background-color: rgb(14, 221, 178);
+}
+
+@media only screen and (max-width: 576px) {
+  .xs-white {
+    color: white;
+  }
+
+  .xs-purple {
+    color: rgb(172, 43, 239);
+  }
+
+  .xs-cyan {
+    color: rgb(14, 221, 178);
+  }
+
+  .xs-black-1 {
+    color: #343234;
+  }
+
+  .xs-black-2 {
+    color: #727272;
+  }
+
+  .xs-green {
+    color: #007159;
+  }
+
+  .xs-bg-purple {
+    background-color: rgb(172, 43, 239);
+  }
+
+  .xs-bg-cyan {
+    background-color: rgb(14, 221, 178);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sm-white {
+    color: white;
+  }
+
+  .sm-purple {
+    color: rgb(172, 43, 239);
+  }
+
+  .sm-cyan {
+    color: rgb(14, 221, 178);
+  }
+
+  .sm-black-1 {
+    color: #343234;
+  }
+
+  .sm-black-2 {
+    color: #727272;
+  }
+
+  .sm-green {
+    color: #007159;
+  }
+
+  .sm-bg-purple {
+    background-color: rgb(172, 43, 239);
+  }
+
+  .sm-bg-cyan {
+    background-color: rgb(14, 221, 178);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .md-white {
+    color: white;
+  }
+
+  .md-purple {
+    color: rgb(172, 43, 239);
+  }
+
+  .md-cyan {
+    color: rgb(14, 221, 178);
+  }
+
+  .md-black-1 {
+    color: #343234;
+  }
+
+  .md-black-2 {
+    color: #727272;
+  }
+
+  .md-green {
+    color: #007159;
+  }
+
+  .md-bg-purple {
+    background-color: rgb(172, 43, 239);
+  }
+
+  .md-bg-cyan {
+    background-color: rgb(14, 221, 178);
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .lg-white {
+    color: white;
+  }
+
+  .lg-purple {
+    color: rgb(172, 43, 239);
+  }
+
+  .lg-cyan {
+    color: rgb(14, 221, 178);
+  }
+
+  .lg-black-1 {
+    color: #343234;
+  }
+
+  .lg-black-2 {
+    color: #727272;
+  }
+
+  .lg-green {
+    color: #007159;
+  }
+
+  .lg-bg-purple {
+    background-color: rgb(172, 43, 239);
+  }
+
+  .lg-bg-cyan {
+    background-color: rgb(14, 221, 178);
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .xlg-white {
+    color: white;
+  }
+
+  .xlg-purple {
+    color: rgb(172, 43, 239);
+  }
+
+  .xlg-cyan {
+    color: rgb(14, 221, 178);
+  }
+
+  .xlg-black-1 {
+    color: #343234;
+  }
+
+  .xlg-black-2 {
+    color: #727272;
+  }
+
+  .xlg-green {
+    color: #007159;
+  }
+
+  .xlg-bg-purple {
+    background-color: rgb(172, 43, 239);
+  }
+
+  .xlg-bg-cyan {
+    background-color: rgb(14, 221, 178);
+  }
+}
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Cairo", sans-serif;
+  color: #727272;
+}
+
+.container {
+  max-width: 105.625rem;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  font-family: "Cairo", sans-serif;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(14, 221, 178);
+  color: #007159;
+  font-size: 1.125rem;
+  padding: 0.666em 1.3em;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 13rem;
+  text-align: center;
+}
+
+.btn-white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(172, 43, 239);
+}
+/*# sourceMappingURL=app.css.map */

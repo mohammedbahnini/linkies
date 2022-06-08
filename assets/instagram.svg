@@ -1,0 +1,15 @@
+<svg id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.457" height="50.457" viewBox="0 0 50.457 50.457">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.008" x2="0.5" y2="0.998" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e09b3d"/>
+      <stop offset="0.3" stop-color="#c74c4d"/>
+      <stop offset="0.6" stop-color="#c21975"/>
+      <stop offset="1" stop-color="#7024c4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="-0.451" y2="1.462" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y1="-1.396" y2="6.586" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="Tracé_301" data-name="Tracé 301" d="M35.426,0H15.032A15.049,15.049,0,0,0,0,15.032V35.426A15.049,15.049,0,0,0,15.032,50.457H35.426A15.049,15.049,0,0,0,50.457,35.426V15.032A15.049,15.049,0,0,0,35.426,0Zm9.956,35.426a9.956,9.956,0,0,1-9.956,9.956H15.032a9.956,9.956,0,0,1-9.956-9.956V15.032a9.956,9.956,0,0,1,9.956-9.956H35.426a9.956,9.956,0,0,1,9.956,9.956V35.426Z" fill="url(#linear-gradient)"/>
+  <path id="Tracé_302" data-name="Tracé 302" d="M146.05,133a13.05,13.05,0,1,0,13.05,13.05A13.065,13.065,0,0,0,146.05,133Zm0,21.024a7.974,7.974,0,1,1,7.974-7.974A7.974,7.974,0,0,1,146.05,154.024Z" transform="translate(-120.821 -120.821)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="3.127" cy="3.127" rx="3.127" ry="3.127" transform="translate(35.177 9.15)" fill="url(#linear-gradient-3)"/>
+</svg>

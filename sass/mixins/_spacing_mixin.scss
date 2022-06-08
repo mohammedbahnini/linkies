@@ -1,0 +1,94 @@
+@use "helpers" as *;
+
+@mixin spacing($prefix: "") {
+  // padding and maring
+  $spacing: 0;
+  @while ($spacing <= 15) {
+    // padding top
+    @include with_prefix(#{".p-t-"+ ($spacing * 4)}, $prefix) {
+      padding-top: #{$spacing}rem;
+    }
+
+    // padding right
+    @include with_prefix(#{".p-r-"+ ($spacing * 4)}, $prefix) {
+      padding-right: #{$spacing}rem;
+    }
+
+    // padding bottom
+    @include with_prefix(#{".p-b-"+ ($spacing * 4)}, $prefix) {
+      padding-bottom: #{$spacing}rem;
+    }
+
+    // padding left
+    @include with_prefix(#{".p-l-"+ ($spacing * 4)}, $prefix) {
+      padding-left: #{$spacing}rem;
+    }
+
+    // padding left and right
+    @include with_prefix(#{".p-x-"+ ($spacing * 4)}, $prefix) {
+      padding-left: #{$spacing}rem;
+      padding-right: #{$spacing}rem;
+    }
+
+    // padding top and bottom
+    @include with_prefix(#{".p-y-"+ ($spacing * 4)}, $prefix) {
+      padding-top: #{$spacing}rem;
+      padding-bottom: #{$spacing}rem;
+    }
+
+    // margin top
+    @include with_prefix(#{".m-t-"+ ($spacing * 4)}, $prefix) {
+      margin-top: #{$spacing}rem;
+    }
+
+    // margin right
+    @include with_prefix(#{".m-r-"+ ($spacing * 4)}, $prefix) {
+      margin-right: #{$spacing}rem;
+    }
+
+    // margin bottom
+    @include with_prefix(#{".m-b-"+ ($spacing * 4)}, $prefix) {
+      margin-bottom: #{$spacing}rem;
+    }
+
+    // margin left
+    @include with_prefix(#{".m-l-"+ ($spacing * 4)}, $prefix) {
+      margin-left: #{$spacing}rem;
+    }
+
+    // margin left and right
+    @include with_prefix(#{".m-x-"+ ($spacing * 4)}, $prefix) {
+      margin-left: #{$spacing}rem;
+      margin-right: #{$spacing}rem;
+    }
+
+    // margin top and bottom
+    @include with_prefix(#{".m-y-" + ($spacing * 4)}, $prefix) {
+      margin-top: #{$spacing}rem;
+      margin-bottom: #{$spacing}rem;
+    }
+
+    $spacing: $spacing + 0.25;
+  }
+
+  // for centering elements with margin auto
+  @include with_prefix(".m-x-auto", $prefix) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include with_prefix(".m-l-auto", $prefix) {
+    margin-left: auto;
+  }
+  @include with_prefix(".m-r-auto", $prefix) {
+    margin-right: auto;
+  }
+
+  // width (percent)
+  $width: 0;
+  @while $width <= 100 {
+    @include with_prefix(#{".width-" + ($width * 1)+"-percent"}, $prefix) {
+      width: ($width) * 1%;
+    }
+    $width: $width + 1;
+  }
+}

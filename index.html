@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Rawabit</title>
+
+    <!-- google fonts  -->
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom styling -->
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body class="rtl">
+    <!-- header -->
+    <header class="p-b-20 on-sm-p-b-10">
+      <div
+        class="container nav flex gap-20 xlg-gap-10 ai-center flex p-t-10 sm-jc-space-between sm-p-t-4"
+      >
+        <div class="logo">
+          <img src="assets/logo.svg" alt="Logo" />
+        </div>
+        <nav class="">
+          <div
+            class="nav-wrapper flex jc-space-between sm-p-y-4 sm-p-b-10 sm-p-x-8"
+          >
+            <div class="close-menu sm-f-s-8">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="flex ai-center gap-20 xlg-gap-10 sm-flex-col sm-gap-8">
+              <li>
+                <a href="#" class="f-w-600 black-1 f-s-4 active">المدونة</a>
+              </li>
+              <li>
+                <a href="#" class="f-w-600 black-1 f-s-4">مساعدة</a>
+              </li>
+            </ul>
+
+            <div class="actions flex ai-center gap-12 sm-flex-col sm-gap-4">
+              <a href="#" class="sign-in inline-block black-1 f-w-600 f-s-4"
+                >تسجيل الدخول</a
+              >
+              <a href="#" class="btn f-w-600 f-s-4 green sm-width-100-percent"
+                >إنشأ حساب مجانا</a
+              >
+            </div>
+          </div>
+        </nav>
+
+        <div class="for-mobile open-menu sm-f-s-7">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div
+        class="container intro width-70-percent md-width-80-percent sm-width-88-percent m-x-auto flex ai-center gap-25 md-gap-15 sm-gap-10 m-b-10 p-t-20 sm-flex-col"
+      >
+        <div class="illustration width-27-percent sm-width-100-percent">
+          <img src="assets/phone-mockup.svg" alt="Phone" />
+          <div class="avatar">
+            <img src="assets/wills-mith.webp" alt="Avatar" />
+          </div>
+          <div class="social-media-group sm-width-100-precent">
+            <img src="assets/social-media-group.svg" alt="" />
+          </div>
+        </div>
+        <div class="content sm-align-center">
+          <h1 class="f-s-12 md-f-s-6 lg-f-s-8 black-1 m-b-6 xlg-f-s-10">
+            الرابط الوحيد الذي ستحتاجه
+          </h1>
+          <p class="f-w-600 f-s-4 m-b-6">
+            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي
+            الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم
+            إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت
+            مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن
+            كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم
+            تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة
+            والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار
+            رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد
+            لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس
+            بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص لوريم
+            إيبسوم.
+          </p>
+          <a href="#" class="btn f-w-600 sm-f-s-5 green">إبدأ الآن</a>
+        </div>
+      </div>
+      <div class="input container">
+        <input
+          type="text"
+          placeholder="Rawabit// ادخل إسم الرابط"
+          class="width-68-percent m-x-auto f-s-5 xlg-f-s-4 sm-width-100-percent"
+        />
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- main -->
+    <main>
+      <div class="about">
+        <div class="container p-y-12 p-x-20 sm-p-x-0">
+          <h1 class="title white m-b-8 lg-align-center">من نحن</h1>
+          <p class="white f-s-5 sm-f-s-4 m-b-12">
+            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي
+            الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم
+            إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت
+            مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن
+            كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم
+            تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة
+            والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار
+            رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد
+            لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس
+            بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص لوريم
+            إيبسوم.
+          </p>
+          <div class="call flex ai-center jc-center">
+            <a href="#" class="btn btn-white f-w-700 f-s-6 sm-f-s-5"
+              >إتصل بنا</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="container p-t-10 p-b-28 p-x-20 sm-p-x-0">
+          <h1 class="title purple m-b-8 lg-align-center">ميزات</h1>
+          <div class="features-wrapper">
+            <!-- phone mid section -->
+            <div class="phone p-x-8">
+              <div class="frame">
+                <img src="assets/phone-mockup.svg" alt="Phone" />
+                <div class="avatar">
+                  <img src="assets/wills-mith.webp" alt="Avatar" />
+                </div>
+              </div>
+            </div>
+            <!-- phone mid section -->
+
+            <!-- features group 1 -->
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/shield.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">آمنة</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/share.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">الاجتماعية أولا</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/www.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">على الإنترنت</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <!-- features group 1 -->
+
+            <!-- features group 2 -->
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/user.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">عنوان الشخصي</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/unlimited.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">روابط غير محدودة</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <div class="feature p-y-4 p-x-4">
+              <div class="feature-header flex ai-center gap-6">
+                <div class="icon">
+                  <img src="assets/art.svg" alt="User" />
+                </div>
+                <h2 class="title f-s-6 black-1">أنيق ومثالي</h2>
+              </div>
+              <div class="feature-body">
+                <p class="f-w-600 f-s-4">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- features group 2 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- recommendations -->
+      <div class="recommendations">
+        <div class="container p-x-20 p-y-12 sm-p-x-0">
+          <h1 class="title purple m-b-8 lg-align-center">توصيات</h1>
+
+          <div
+            class="recommendations-list flex jc-space-between flex-wrap m-b-20 sm-flex-col"
+          >
+            <div
+              class="recommendation flex ai-start gap-6 width-47-percent md-flex-col md-ai-center md-align-center sm-width-100-percent sm-gap-0"
+            >
+              <div class="avatar">
+                <img src="assets/wills-mith.webp" alt="Avatar" />
+              </div>
+              <div class="recommendation-body">
+                <h3 class="title black-1 f-s-7 m-b-1 sm-f-s-5">عمر الزكايري</h3>
+                <p class="f-s-4 f-w-600">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="recommendation flex ai-start gap-6 width-47-percent md-flex-col md-ai-center md-align-center sm-width-100-percent sm-gap-0"
+            >
+              <div class="avatar">
+                <img src="assets/wills-mith.webp" alt="Avatar" />
+              </div>
+              <div class="recommendation-body">
+                <h3 class="title black-1 f-s-7 m-b-1 sm-f-s-5">عمر الزكايري</h3>
+                <p class="f-s-4 f-w-600">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="recommendation flex ai-start gap-6 width-47-percent md-flex-col md-ai-center md-align-center sm-width-100-percent sm-gap-0"
+            >
+              <div class="avatar">
+                <img src="assets/wills-mith.webp" alt="Avatar" />
+              </div>
+              <div class="recommendation-body">
+                <h3 class="title black-1 f-s-7 m-b-1 sm-f-s-5">عمر الزكايري</h3>
+                <p class="f-s-4 f-w-600">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="recommendation flex ai-start gap-6 width-47-percent md-flex-col md-ai-center md-align-center sm-width-100-percent sm-gap-0"
+            >
+              <div class="avatar">
+                <img src="assets/wills-mith.webp" alt="Avatar" />
+              </div>
+              <div class="recommendation-body">
+                <h3 class="title black-1 f-s-7 m-b-1 sm-f-s-5">عمر الزكايري</h3>
+                <p class="f-s-4 f-w-600">
+                  لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية
+                  هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex jc-center ai-center">
+            <a href="#" class="btn f-w-700 f-s-6 sm-f-s-5">إبدأ الآن</a>
+          </div>
+        </div>
+      </div>
+      <!-- recommendations -->
+
+      <!-- contact -->
+      <div class="contact">
+        <div class="container p-t-8 p-b-12">
+          <div class="contact-intro m-x-auto m-b-13">
+            <h3 class="title purple f-s-8 m-b-8 lg-align-center">إتصل بنا</h3>
+            <p class="f-w-600 f-s-5 sm-f-s-4">
+              لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي
+              الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان
+              لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر
+              عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من
+              نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون
+              من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله
+              الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات
+              هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي
+              مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر
+              الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت
+              أيضاً على نسخ من نص لوريم إيبسوم.
+            </p>
+          </div>
+          <form
+            action="#"
+            class="flex flex-col ai-center jc-space-between width-70-percent m-x-auto gap-15 sm-width-100-percent sm-gap-8"
+          >
+            <div
+              class="flex jc-space-between width-100-percent sm-flex-col sm-gap-8"
+            >
+              <input
+                type="text"
+                placeholder="الاسم الكامل"
+                class="f-s-5 width-48-percent sm-width-100-percent sm-f-s-4"
+              />
+              <input
+                type="email"
+                placeholder="بردك الالكتروني"
+                class="f-s-5 width-48-percent sm-width-100-percent sm-f-s-4"
+              />
+            </div>
+            <textarea
+              rows="5"
+              placeholder="الرسالة"
+              class="width-100-percent ff-1 f-s-5 sm-f-s-4"
+            ></textarea>
+            <input
+              type="submit"
+              value="ارسل"
+              class="btn f-w-600 f-s-5 sm-f-s-4 sm-width-100-percent"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- contact -->
+    </main>
+    <!-- main -->
+
+    <!-- footer  -->
+    <footer class="bg-purple">
+      <div class="container">
+        <nav
+          class="flex ai-center jc-space-between p-y-8 width-82-percent m-x-auto sm-flex-col sm-gap-8 sm-width-100-percent"
+        >
+          <ul class="link-items flex gap-12 sm-flex-col sm-ai-center sm-gap-3">
+            <li>
+              <a class="white f-s-4" href="#">ويبماسر</a>
+            </li>
+            <li>
+              <a class="white f-s-4" href="#">مساعدة</a>
+            </li>
+            <li>
+              <a class="white f-s-4" href="#">إمكانية الوصول</a>
+            </li>
+          </ul>
+
+          <div class="social-media">
+            <ul class="social-media-items flex ai-center gap-10">
+              <li>
+                <a href="#" class="white f-s-6">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="white f-s-6">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="white f-s-6">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="copyright p-y-4">
+          <p class="white align-center f-s-3">2020 © جميع الحقوق محفوظة</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer  -->
+
+    <script>
+      const closeMenu = document.querySelector(".close-menu");
+      const openMenu = document.querySelector(".open-menu");
+      const mainNav = document.querySelector("nav");
+      const body = document.querySelector("body");
+
+      openMenu.addEventListener("click", () => {
+        mainNav.classList.add("open");
+        body.style.overflow = "hidden";
+      });
+
+      closeMenu.addEventListener("click", () => {
+        mainNav.classList.remove("open");
+        body.style.overflow = "auto";
+      });
+    </script>
+  </body>
+</html>

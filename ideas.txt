@@ -1,0 +1,17 @@
+for the home page : 
+    -- container whith 88% width and max-width of 1690px
+    -- body with max width of 1920px
+    -- add class active for link text
+    -- intro section width 69.5% width
+    -- colors are : 
+        purlpe
+        cyan
+        white
+        #343234 for title section
+        #727272 for paragraphs
+    -- there is 3 btns
+        small
+        medium
+        large
+    -- the text is gonna be right to left
+    -- there is one type of shadow

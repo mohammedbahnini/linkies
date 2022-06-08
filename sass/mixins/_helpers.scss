@@ -1,0 +1,13 @@
+// this mixin for generating classe's names (with prefix or not )
+@mixin with_prefix($selector, $prefix) {
+  $final_selector: "";
+  @if (str-length($prefix) == 0) {
+    $final_selector: $selector;
+  } @else {
+    $final_selector: str-insert($selector, $prefix + "-", 2);
+  }
+
+  #{$final_selector} {
+    @content;
+  }
+}
