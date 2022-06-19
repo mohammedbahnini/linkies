@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+body.dark {
+  background-color: black;
+}
+body.dark .profile {
+  background: -webkit-gradient(linear, left top, left bottom, from(#727272), to(#727272));
+  background: linear-gradient(to bottom, #727272, #727272);
+}
+body.dark .share-links .input-link input {
+  border: none;
+  background: url("../assets/join.svg") no-repeat calc(100% - 10px) center;
+  background-color: rgb(95, 95, 95);
+  outline: none;
+}
+/*# sourceMappingURL=profile-dark.css.map */

@@ -1,0 +1,54 @@
+@use "partials/variables" as *;
+@use "mixins/coloring_mixin" as *;
+
+.dark {
+  // colors
+  .dark-mode-white {
+    color: white !important;
+  }
+
+  // color purple
+  .dark-mode-purple {
+    color: $purple !important;
+  }
+
+  // color cyan
+  .dark-mode-cyan {
+    color: $cyan !important;
+  }
+
+  // color black level 1
+  .dark-mode-black-1 {
+    color: $black-1 !important;
+  }
+
+  // color black level 2
+  .dark-mode-black-2 {
+    color: $black-2 !important;
+  }
+
+  // color green
+  .dark-mode-green {
+    color: $green !important;
+  }
+
+  // background-colors
+  .dark-mode-purple {
+    background-color: $purple !important;
+  }
+  .dark-mode-bg-cyan {
+    background-color: $cyan !important;
+  }
+  .dark-mode-bg-white {
+    background-color: white !important;
+  }
+  .dark-mode-bg-green {
+    background-color: $green !important;
+  }
+  .dark-mode-bg-black-1 {
+    background-color: $black-1 !important;
+  }
+  .dark-mode-bg-black-2 {
+    background-color: $black-2 !important;
+  }
+}

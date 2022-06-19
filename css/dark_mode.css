@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+.dark .dark-mode-white {
+  color: white !important;
+}
+.dark .dark-mode-purple {
+  color: rgb(172, 43, 239) !important;
+}
+.dark .dark-mode-cyan {
+  color: rgb(14, 221, 178) !important;
+}
+.dark .dark-mode-black-1 {
+  color: rgb(52, 50, 52) !important;
+}
+.dark .dark-mode-black-2 {
+  color: rgb(114, 114, 114) !important;
+}
+.dark .dark-mode-green {
+  color: #007159 !important;
+}
+.dark .dark-mode-purple {
+  background-color: rgb(172, 43, 239) !important;
+}
+.dark .dark-mode-bg-cyan {
+  background-color: rgb(14, 221, 178) !important;
+}
+.dark .dark-mode-bg-white {
+  background-color: white !important;
+}
+.dark .dark-mode-bg-green {
+  background-color: #007159 !important;
+}
+.dark .dark-mode-bg-black-1 {
+  background-color: rgb(52, 50, 52) !important;
+}
+.dark .dark-mode-bg-black-2 {
+  background-color: rgb(114, 114, 114) !important;
+}
+/*# sourceMappingURL=dark_mode.css.map */

@@ -1,0 +1,25 @@
+@use "partials/variables" as *;
+
+body.dark {
+  background-color: black;
+  // Profile
+  .profile {
+    background: linear-gradient(
+      to bottom,
+      rgba($black-2, 1),
+      rgba($black-2, 1)
+    );
+  }
+
+  // Display grid
+  .share-links {
+    .input-link {
+      input {
+        border: none;
+        background: url("../assets/join.svg") no-repeat calc(100% - 10px) center;
+        background-color: rgb(95, 95, 95);
+        outline: none;
+      }
+    }
+  }
+}

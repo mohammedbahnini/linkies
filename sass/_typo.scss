@@ -1,0 +1,58 @@
+@use "variables" as *;
+.white {
+  color: white;
+}
+.purple {
+  color: $purple;
+}
+.cyan {
+  color: $cyan;
+}
+.black-1 {
+  color: $black-1;
+}
+.black-2 {
+  color: $black-2;
+}
+.green {
+  color: $green;
+}
+// font-sizing
+$size: 0.25;
+@while ($size <= 20) {
+  .f-s-#{$size * 4} {
+    font-size: #{$size}rem;
+  }
+
+  $size: $size + 0.25;
+}
+
+// weights
+$weight: 100;
+@while $weight <= 900 {
+  .f-w-#{$weight} {
+    font-weight: $weight;
+  }
+  $weight: $weight + 100;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+// align
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+.rtl {
+  direction: rtl;
+}

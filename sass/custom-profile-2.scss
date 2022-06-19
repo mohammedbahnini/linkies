@@ -1,0 +1,5 @@
+@use "partials/variables" as *;
+
+.profile {
+  background: linear-gradient(to bottom, $pink, $pink);
+}

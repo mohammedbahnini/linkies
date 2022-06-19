@@ -39,4 +39,16 @@
   @include with_prefix(".bg-cyan", $prefix) {
     background-color: $cyan;
   }
+  @include with_prefix(".bg-white", $prefix) {
+    background-color: white;
+  }
+  @include with_prefix(".bg-green", $prefix) {
+    background-color: $green;
+  }
+  @include with_prefix(".bg-black-1", $prefix) {
+    background-color: $black-1;
+  }
+  @include with_prefix(".bg-black-2", $prefix) {
+    background-color: $black-2;
+  }
 }

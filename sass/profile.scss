@@ -1,0 +1,140 @@
+@use "partials/variables" as *;
+
+@use "mixins/responsive_mixin" as *;
+
+body {
+  background-color: white;
+  min-height: 100vh;
+}
+
+// Container
+main .container {
+  box-shadow: 0 0 16px 0 rgba(black, 0.3);
+  border-radius: 1rem;
+  overflow: hidden;
+  .content {
+    background-color: white;
+  }
+}
+
+// Profile
+.profile {
+  background: linear-gradient(to bottom, rgba($purple, 1), rgba($cyan, 1));
+
+  // Avatar
+  .avatar {
+    outline: 4px solid white;
+    outline-offset: -3px;
+    width: 7.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // Profile action
+  &-action {
+    .btn {
+      font : {
+        size: 1.125rem;
+        weight: bold;
+      }
+    }
+  }
+}
+
+// Share links
+.links-grid,
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 2rem;
+  justify-content: center;
+  @include sm-and-down {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+}
+
+// Display grid
+.share-links {
+  .input-link {
+    input {
+      display: block;
+      width: 100%;
+      padding: 1em 2.5em 1em 1em;
+      border-radius: 0.75rem;
+      border: 2px solid $purple;
+      background: url("../assets/join.svg") no-repeat calc(100% - 10px) center;
+      outline: none;
+    }
+  }
+}
+
+// News
+.news-post {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  height: 14rem;
+  position: relative;
+  .post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .post-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(to top, rgba(black, 1), rgba(black, 0))
+      no-repeat center bottom;
+    background-size: 100% 75%;
+    .read-more {
+      align-self: end;
+    }
+  }
+}
+
+// Sponsors
+.sponsors {
+  .contact-us {
+    flex-shrink: 0;
+  }
+  .sponsor-behance {
+    color: rgb(25, 118, 210);
+  }
+  .sponsor-spotify {
+    color: rgb(0, 217, 95);
+  }
+  .sponsor-youtube {
+    color: rgb(244, 67, 54);
+  }
+  .sponsor-twitch {
+    color: rgb(103, 58, 183);
+  }
+  .sponsor-facebook {
+    color: rgb(25, 118, 210);
+  }
+}
+
+// Footer
+footer {
+  .logo {
+    width: 6rem;
+    display: inline-block;
+    img {
+      width: 100%;
+    }
+  }
+}

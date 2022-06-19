@@ -5,23 +5,16 @@ $purple: rgb(172, 43, 239);
 $pink: rgb(219, 100, 224);
 $cyan: rgb(14, 221, 178);
 $green: #007159;
-$black-1: rgb(52, 50, 52);
-$black-2: rgb(114, 114, 114);
+$black-1: #343234;
+$black-2: #727272;
 $white: rgb(255, 255, 255);
 
 // font family
 $ff-1: "Cairo", sans-serif;
 
 // breakpoints
-$xs-breakpoint: 576px;
+$xs-breakpoint: 375px;
 $sm-breakpoint: 768px;
 $md-breakpoint: 992px;
 $lg-breakpoint: 1200px;
-$xlg-breakpoint: 1440px;
-
-// prefixes
-$xs-prefix: "xs";
-$sm-prefix: "sm";
-$md-prefix: "md";
-$lg-prefix: "lg";
-$xlg-prefix: "xlg";
+$xld-breakpoint: 1440px;

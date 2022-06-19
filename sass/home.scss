@@ -1,17 +1,5 @@
 @use "partials/variables" as *;
 
-@use "partials/rules";
-
-@use "component/button";
-
-@use "partials/coloring";
-
-@use "partials/spacing";
-
-@use "partials/display";
-
-@use "partials/typo";
-
 @use "mixins/responsive_mixin" as *;
 
 body {
